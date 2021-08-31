@@ -1,2 +1,1 @@
-yarn start
-yarn build
+npm run build:h5
