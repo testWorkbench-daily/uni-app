@@ -1,3 +1,2 @@
-npm i yarn
-yarn serve
+yarn start
 yarn build
