@@ -1,2 +1,2 @@
-npm install @vue/cli
+npm start
 yarn build
