@@ -1,1 +1,2 @@
-npm run build:h5
+npm install @vue/cli
+yarn build
