@@ -1,2 +1,2 @@
-npm start
+#!/bin/bash
 yarn build
