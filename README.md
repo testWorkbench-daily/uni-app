@@ -134,7 +134,7 @@ OSS Bucket具有该托管能力，需要在使用的OSS Bucket内，选择「基
 
 访问**域名+静态资源路径**，如 mydomain.com/index.html ， 即可看到网页内容：
 
-<img src="1" width="650">
+<img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/uniapp/domain_1.png" width="650">
 
 3.5 （可选）使用CDN加速域名访问，节约流量费用
 
