@@ -49,12 +49,12 @@ uni-app是一个使用Vue.js开发所有前端应用的框架，开发者编写�
 
 - 「GitHub」需按说明，在GitHub仓库内配置您的阿里云AccessKeyId、AccessKeySecret。
   
-<img src="https://ecoboost-readme-image.oss-cn-shanghai.aliyuncs.com/feApp/github/hexo/config.png" width="300">
+<img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/uniapp/dist.png" width="300">
 
 - 「纯静态网站」需勾选“是”，让云开发平台可以直接将「资源路径」中的本地静态资源，上传到云端供网站使用。
-   如有特殊需求，如希望在本地完成uni-app generate，或者更多的shell脚本操作，则需要勾选“否”，并在.gitignore中添加/public目录。之后，云开发平台会在部署项目时，自动调用根目录下的build.sh脚本，执行其中的uni-app generate，或其它shell脚本指令，完成生成/public目录中静态资源的步骤。而后在部署过程中，将「资源路径」中的本地静态资源，上传到云端供网站使用。
+   如有特殊需求，如希望在本地完成uni-app generate，或者更多的shell脚本操作，则需要勾选“否”，并在.gitignore中添加/dist目录。之后，云开发平台会在部署项目时，自动调用根目录下的build.sh脚本，执行其中的uni-app generate，或其它shell脚本指令，完成生成/dist目录中静态资源的步骤。而后在部署过程中，将「资源路径」中的本地静态资源，上传到云端供网站使用。
 
-- 「资源路径」需填写“./public”，因为uniapp框架生成的静态资源，默认是存放在public目录下的。开发平台会将该目录下的文件完整存储到OSS中，供网站访问使用。
+- 「资源路径」需填写“./dist/build/h5”，因为uniapp框架生成的静态资源，默认是存放在dist目录下h5文件夹中的。开发平台会将该目录下的文件完整存储到OSS中，供网站访问使用。
 
 - OSS配置中，需要填写要部署到的OSS Bucket与OSS地域。关于OSS，可打开https://oss.console.aliyun.com/bucket ，开通OSS服务，并创建OSS Bucket。若要用的域名暂无公安部备案信息可用，建议选择中国内地以外的OSS地域创建Bucket，如“美国-硅谷”。开通OSS和创建OSS Bucket不收取用户费用。
 
@@ -114,7 +114,7 @@ uni-app是一个使用Vue.js开发所有前端应用的框架，开发者编写�
 
 如下图所示，配置CNAME、自己的域名、记录值：
 
-<img src="11" width="400">
+<img src="https://ecoboost-readme-image.oss-cn-shanghai.aliyuncs.com/feApp/github/hexo/cname_2.png" width="400">
 
 记录值查看方法示意图：
 
