@@ -1,2 +1,2 @@
-yarn install
+npm install
 yarn build
