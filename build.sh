@@ -1,3 +1,3 @@
 yarn install
-yarn install @dcloudio/uni-cli-i18n
+yarn add -D @dcloudio/uni-cli-i18n @dcloudio/uni-i18n
 yarn build
